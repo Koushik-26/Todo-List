@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+
+<link rel="stylesheet" href="styles\styles.css">
+</head>
+<body>
+
+  <div id="heading" class="box1">
+    <h1><%= Date %> List</h1>
+  </div>
+
+<div class="box1">
+  <% for(let i = 0; i<Item.length;i++) {  %>
+   <div class="Task">
+    <input type="checkbox">
+    <p><%= Item[i] %></p>
+   </div>
+  <% } %>
+  
+  <form action="/" method="post">
+    <input type="text" name="newtask" autocomplete="off" placeholder="newtask">
+    <button type="submit" name="button">+</button>
+       </form>
+</div>
+   
+
+  
+</body>
+</html>

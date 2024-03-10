@@ -1,0 +1,92 @@
+
+body{
+    background-color: #e5e5f7;
+    opacity: 0.8;
+    background-image: radial-gradient(#444cf7 0.5px, #e5e5f7 0.5px);
+    background-size: 10px 10px;
+}
+
+#heading{
+    width: 350px;
+    height: 50px;
+    background-color:  #3937af;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+}
+
+
+.Task{
+    min-height: 70px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #f1f1f1;
+}
+.Task:last-child{
+    border-bottom: 0px;
+}
+
+p{
+    margin: 0;
+    padding: 20px;
+    font-size: 20px;
+    font-weight:200;
+    color: #00204a;
+}
+form{
+    text-align: center;
+    margin-left: 20px;
+}
+
+button{
+    min-height: 48px;
+    width: 50px;
+    border-radius: 50%;
+    border-color: transparent;
+    background-color: #243385;
+    color: #fff;
+    font-size: 30px;
+    padding-bottom: 0px;
+    transition: scale 0.5s;
+}
+button:hover{
+    scale: 1.1;
+    box-shadow: #17171c;
+}
+.box1{
+    max-width: 400px;
+    margin:50px auto; 
+    background: white;
+    border-radius: 5px;
+    box-shadow: 10px 5px 5px rgb(114, 114, 136);
+
+}
+input:checked+p{
+    text-decoration: line-through;
+    text-decoration-color: rgb(114, 114, 167);
+}
+input[type="checkbox"]
+{
+    box-shadow: #535C91;
+    margin: 20px;
+}
+input[type="text"]
+{
+    text-align: center;
+    height: 50px;   
+    top: 10px;
+    border:none;
+    background: transparent;
+    font-size: 20px;
+    font-weight: 200;
+    width: 300px;
+}
+::placeholder{
+    color: grey;
+    opacity: 1;
+}
+form{
+    text-align: center;
+    margin: 20px;
+}
+
